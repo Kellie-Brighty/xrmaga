@@ -4,7 +4,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 
 const Tokenomics: React.FC = () => {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "0000000000000000000"; // Replace with actual address
+  const contractAddress = "rGafPHYYAHHXxSqnp1f1eaj2te6V4thnyn"; // Replace with actual address
 
   const distribution = [
     { name: "Liquidity Pool", value: 70, color: "#FF0000" },
