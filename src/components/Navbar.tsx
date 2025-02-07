@@ -116,16 +116,19 @@ const Navbar: React.FC = () => {
                   {item.name}
                 </motion.a>
               ))}
-              <motion.button
+              <motion.a
                 className="w-full max-w-xs px-6 py-3 bg-gradient-to-r from-maga-red to-red-500 rounded-full font-bold hover:shadow-lg hover:shadow-red-500/50 transition-shadow mx-4"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: menuItems.length * 0.1 }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                href="https://firstledger.net/token/rGafPHYYAHHXxSqnp1f1eaj2te6V4thnyn/58524D4147410000000000000000000000000000"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Buy on FirstLedger
-              </motion.button>
+              </motion.a>
             </div>
           </motion.div>
 
