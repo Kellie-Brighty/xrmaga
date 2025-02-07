@@ -8,7 +8,7 @@ const Tokenomics: React.FC = () => {
 
   const distribution = [
     { name: "Liquidity Pool", value: 70, color: "#FF0000" },
-    { name: "Community", value: 10, color: "#FFFFFF" },
+    // { name: "Community", value: 10, color: "#FFFFFF" },
     { name: "Development", value: 10, color: "#0000FF" },
     { name: "Marketing", value: 10, color: "#FF4444" },
   ];
