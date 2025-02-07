@@ -1,0 +1,65 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-content {
+  z-index: 2;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 6rem;
+  font-weight: 800;
+  background: linear-gradient(45deg, #ff0000, #ffffff, #0000ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  color: #ffffff;
+}
+
+.cta-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: linear-gradient(45deg, #ff0000, #ff4444);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+}
+
+.flag-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(
+      0deg,
+      rgba(255, 0, 0, 0.1) 0%,
+      transparent 10%,
+      transparent 20%,
+      rgba(255, 255, 255, 0.1) 30%,
+      transparent 40%,
+      transparent 50%,
+      rgba(0, 0, 255, 0.1) 60%,
+      transparent 70%
+    );
+  z-index: 1;
+  pointer-events: none;
+} 

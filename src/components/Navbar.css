@@ -1,0 +1,44 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff0000, #ffffff, #0000ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.connect-wallet {
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(45deg, #ff0000, #ff4444);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+} 
